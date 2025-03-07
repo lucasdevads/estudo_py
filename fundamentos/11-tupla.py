@@ -16,3 +16,4 @@ print(filmeTupla[2:])
 
 # recuperando o item pelo o nome
 print(filmeTupla.index("DeadPool"))
+
