@@ -1,6 +1,5 @@
 import pprint
 
-
 filmesDict = {
     "os simpsons":{
         "ano": 2013,
