@@ -30,3 +30,7 @@ print(filmeSimpsons)
 #atualizar itens no dicionario
 filmeSimpsons.update({"nota": 9.5}) 
 print(filmeSimpsons)
+
+#removendo itens do dicionario
+filmeSimpsons.pop("diretor")
+print(filmeSimpsons)
