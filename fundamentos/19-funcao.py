@@ -21,3 +21,15 @@ def calculete():
     return media
 
 print(f"A média de avalições: {calculete():.2f}")
+
+# função para cadastra um filme
+
+def cadastraFilme():
+    nome = input("Digite o nome do filme: \n")
+    anoLancamento = int(input("Digite o ano de lancamento do filme: \n"))
+    precoFilme = float(input("Digite o preço do filme: \n"))
+    notaFilme = float(input("Digite uma nota para o Filme: \n"))
+    print(f"{nome} ({anoLancamento}) - R$ {precoFilme:.2f}")
+
+cadastraFilme()
+cadastraFilme()
