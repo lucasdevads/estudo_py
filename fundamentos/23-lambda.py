@@ -16,7 +16,10 @@ print(is_even(23))
 print(is_even(66))
 print(div_num(10,2))
 print(div_num(165,6))
-print(reverse("Lucas"))notas = {
+print(reverse("Lucas"))
+
+filme_list = ["Meu malvado favorito", "Os simpsons", "Esquadrão classe A", "A casa monstro", "Vida de inseto", "Como treinar seu dragão"]
+notas = {
     "Meu malvado favorito":[8.0, 9.8,8.0],
     "Os simpsons": [9.0,9.0,9.5],
     "Esquadrão classe A":[8.5, 9.0, 9.5],
